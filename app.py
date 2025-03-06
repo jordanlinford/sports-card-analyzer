@@ -25,6 +25,8 @@ import re
 import unicodedata
 import cv2
 
+# Your remaining Streamlit code...
+
 # Configure logging
 logger: logging.Logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
