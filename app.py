@@ -16,6 +16,10 @@ import shutil
 from typing import Dict, Any, Optional, Tuple
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import StandardScaler
+import nltk
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('brown')
 from textblob import TextBlob
 import random
 import plotly.express as px

@@ -10,3 +10,5 @@ python-dotenv>=1.0.0
 ebaysdk>=2.2.0
 opencv-python>=4.8.0
 gunicorn>=21.2.0
+textblob==0.17.1
+nltk==3.8.1  # TextBlob requires NLTK data
