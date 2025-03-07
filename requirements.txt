@@ -11,4 +11,4 @@ ebaysdk>=2.2.0
 gunicorn>=21.2.0
 textblob==0.17.1
 nltk==3.8.1  # TextBlob requires NLTK data
-opencv-python-headless==4.9.0.80  # Server-friendly version
+opencv-python-headless==4.9.0.80
