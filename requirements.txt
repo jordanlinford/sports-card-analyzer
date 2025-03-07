@@ -1,6 +1,6 @@
 streamlit>=1.24.0
 pandas>=1.5.3
-numpy>=1.24.3
+numpy==1.26.4  # Use a stable NumPy version to avoid conflicts
 plotly>=5.13.1
 scikit-learn>=1.2.2
 statsmodels>=0.14.0
@@ -8,9 +8,7 @@ requests>=2.31.0
 Pillow>=9.5.0
 python-dotenv>=1.0.0
 ebaysdk>=2.2.0
-opencv-python>=4.8.0
 gunicorn>=21.2.0
 textblob==0.17.1
 nltk==3.8.1  # TextBlob requires NLTK data
-opencv-python-headless==4.9.0.80  # Headless version for server environments
 opencv-python-headless==4.9.0.80  # Server-friendly version
